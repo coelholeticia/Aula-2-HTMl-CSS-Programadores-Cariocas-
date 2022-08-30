@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: blueviolet;
+    padding: 40px 0;
+}
+h1{
+    color: #ffff;
+    text-align:center;
+    font-size: 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+    text-align: end;
+    padding-right: 20px;
+}
+
+.redes-socias{
+    font-size: 24px;
+    color: #ffff;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.div-foto, .sobre-mim, .lista-portfolio{
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.img-eu{
+    width: 200px;
+    border-radius: 20px;
+    border: solid 5px blueviolet;
+}
+
+.sobre{
+    font-size: 32px ;
+}
+
+#conecta{
+    margin-top: 50px;
+    padding: 10px 80px ;
+    background-color: blueviolet;
+    color: #ffff;
+    font-size: 20px;
+
+}
+
+.lista{
+    list-style: none;
+}
+
+.itens{
+    font-size: 20px;
+    color: gray;
+}
+
+footer{
+    background-color: blueviolet;
+    margin-top: 150px;
+    padding: 10px 0;
+}
+
+.footer{
+    text-align: center;
+    font-size: 18px;
+    color: #ffff;
+}
