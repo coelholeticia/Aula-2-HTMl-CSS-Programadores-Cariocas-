@@ -19,6 +19,8 @@ Documentação:
 [MDN](https://developer.mozilla.org/pt-BR/)
 [W3 Schools](https://www.w3schools.com/)
 
-***Vamos nos conectar***
 ![](https://media3.giphy.com/media/jmYJF3hGctoOI/200.webp?cid=ecf05e47o5xr47y3rtisexubehvlukjwnambcfm361nm7u99&rid=200.webp&ct=g)
+
+***Vamos nos conectar ?***
+
 [Linkedin](https://www.linkedin.com/in/coelholetticia/)
