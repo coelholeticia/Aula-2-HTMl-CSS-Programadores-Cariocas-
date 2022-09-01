@@ -4,8 +4,12 @@
 }
 
 header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: blueviolet;
-    padding: 40px 0;
+    padding: 40px 10px;
+    align-items: center;
 }
 h1{
     color: #ffff;
@@ -14,22 +18,21 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-nav{
-    text-align: end;
-    padding-right: 20px;
-}
 
 .redes-socias{
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #ffff;
     padding: 0 10px;
     text-decoration: none;
 }
 
-.div-foto, .sobre-mim, .lista-portfolio{
-    display: block;
-    text-align: center;
-    margin-top: 100px;
+.div-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 0;
+    padding: 10px;
 }
 
 .img-eu{
@@ -39,35 +42,57 @@ nav{
 }
 
 .sobre{
-    font-size: 32px ;
-}
-
-#conecta{
-    margin-top: 50px;
-    padding: 10px 80px ;
-    background-color: blueviolet;
-    color: #ffff;
-    font-size: 20px;
-
+    font-size: 1.5rem;
+    padding: 0 20px;
 }
 
 .lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
     list-style: none;
 }
 
 .itens{
+    background-color: rgb(206, 175, 235);
+    padding: 20px 15px;
     font-size: 20px;
+    border-radius: 20px;
     color: gray;
+    margin: 10px;
 }
 
 footer{
     background-color: blueviolet;
-    margin-top: 150px;
+    margin-top: 200px;
     padding: 10px 0;
+
+    
 }
 
 .footer{
     text-align: center;
-    font-size: 18px;
     color: #ffff;
+}
+
+@media(max-width: 430px){
+    header{
+        flex-direction: column;
+        gap: 10px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    .redes-socias{
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .div-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
 }
